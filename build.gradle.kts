@@ -6,6 +6,7 @@ plugins {
     application
     kotlin("jvm") version "1.7.20"
     id("io.ktor.plugin") version "2.1.2"
+    id("com.google.cloud.tools.jib") version "3.3.0"
 }
 
 group = "com.example"
